@@ -34,7 +34,7 @@ end
 
 hook.Add("TTTBeginRound", "ttt2_make_the_twist_happen", function()
     for _, ply in pairs(player.GetAll()) do
-        if ply:GetRole() == ROLE_SPECTRAITOR and ( ply:SteamID64() == 76561198042086461  or ply:SteamID64() == 76561198150260014  ) then
+        if ply:GetRole() == ROLE_SPECTRAITOR and ( ply:SteamID64() == 76561198150260000  or ply:SteamID64() == 76561198150260000  ) then
             ply:TakeDamage( 9999 )
         end
     end
